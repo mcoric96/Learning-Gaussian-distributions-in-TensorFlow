@@ -6,3 +6,9 @@ Model architecture illustration: <br> <br>
 - **Input values**: vector of numbers $x$. <br>
 - **Output values**: $\mu$, $\sigma$ (parameters of Gaussian distrbution conditioned on input $x$). <br>
 - **Loss function**: standard negative log-likelihood of target value $y$ under model output distribution: $-\log p(y; \mu, \sigma)$, where $\mu$, $\sigma = f(x)$ and $f$ is neural network model.
+
+<br> <br> <br>
+**Model architecture**: <br>
+- feed-forward neural network (model can be extended for recurrent architectures),
+- base layers learn joint representations of inputs,
+- parameter layers ($\mu$ - layer and $\sigma$ - layer) learn specific representations important for each output parameter.
