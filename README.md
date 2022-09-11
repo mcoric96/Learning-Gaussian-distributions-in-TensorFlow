@@ -9,8 +9,9 @@ Model architecture illustration: <br> <br>
 <br>
 For dataset $X = \{x_1, x_2, ..., x_n\}$ and target values $Y = \{y_1, y_2, ..., y_3\}$ loss function negative log-likelihood is defined as:
 <p align="center">
-$$L(\theta ; X) = \frac{1}{n} \sum_{i=1}^n -\log p(y_i; \mu_i, \sigma_i)$$, where $\mu_i$, $\sigma_i$ are model outputs for $x_i$.
+$$L(\theta ; X) = \frac{1}{n} \sum_{i=1}^n -\log p(y_i; \mu_i, \sigma_i)$$
 </p>
+where $\mu_i$ and $\sigma_i$ are model outputs for $x_i$.
 <br>
 
 <br> <br>
