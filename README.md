@@ -13,7 +13,7 @@ Model architecture illustration: <br> <br>
 - base layers learn joint representations of inputs,
 - parameter layers ( $\mu$ - layer and $\sigma$ - layer) learn specific representations important for each output parameter.
 
-<br>
+<br> <br>
 Model output $\sigma$ represents aleatoric model uncertainty (illustration example below). <br>
 <img width="549" alt="github_aleatoric_uncertainty" src="https://user-images.githubusercontent.com/38408538/189534678-69006e78-4abe-4719-b09b-61cea892c5d0.png">
 
