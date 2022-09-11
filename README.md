@@ -11,7 +11,7 @@ For dataset $X = \{x_1, x_2, ..., x_n\}$ and target values $Y = \{y_1, y_2, ...,
 <p align="center">
 $$L(\theta ; X) = \frac{1}{n} \sum_{i=1}^n -\log p(y_i; \mu_i, \sigma_i)$$
 </p>
-where $\mu_i$ and $\sigma_i$ are model outputs for $x_i$.
+where $\mu_i$ and $\sigma_i$ are model outputs for $x_i$, and \theta are model parameters.
 <br>
 
 <br> <br>
