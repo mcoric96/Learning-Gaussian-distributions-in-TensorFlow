@@ -11,7 +11,10 @@ Model architecture illustration: <br> <br>
 **Model architecture**: <br>
 - feed-forward neural network (model can be extended for recurrent architectures),
 - base layers learn joint representations of inputs,
-- parameter layers ( $\mu$ - layer and $\sigma$ - layer) learn specific representations important for each output parameter.
+- parameter layers ( $\mu$ - layer and $\sigma$ - layer) learn specific representations important for each output parameter,
+- alternative for regression models with single numerical output,
+- $\mu$ - layer output activation function: can be any function, linear or any other that restricts output range,
+- $\sigma$ - layer output activation function: should be function with only positive value outputs, like *softplus*.
 
 <br> <br>
 Model output $\sigma$ represents aleatoric model uncertainty (illustration example below). <br> <br>
