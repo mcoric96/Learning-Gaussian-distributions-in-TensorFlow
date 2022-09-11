@@ -13,7 +13,7 @@ Model architecture illustration: <br> <br>
 - base layers learn joint representations of inputs,
 - parameter layers ( $\mu$ - layer and $\sigma$ - layer) learn specific representations important for each output parameter,
 - alternative for regression models with single numerical output,
-- $\mu$ - layer output activation function: can be any function, linear or any other that restricts output range,
+- $\mu$ - layer output activation function: can be any function, *linear* or any other that restricts output range,
 - $\sigma$ - layer output activation function: should be function with only positive value outputs, like *softplus*.
 
 <br> <br>
