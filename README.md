@@ -7,8 +7,9 @@ Model architecture illustration: <br> <br>
 - **Output values**: $\mu$, $\sigma$ (parameters of Gaussian distrbution conditioned on input $x$). <br>
 - **Loss function**: standard negative log-likelihood of target value $y$ under model output distribution: $-\log p(y; \mu, \sigma)$, where $\mu$, $\sigma = f(x)$ and $f$ is neural network model.
 <br>
+For dataset $X = {x_1, x_2, ..., x_n}$ and target values Y = {y_1, y_2, ..., y_3}
 <p align="center">
-hghghg
+
 </p>
 <br>
 
