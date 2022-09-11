@@ -11,7 +11,7 @@ Model architecture illustration: <br> <br>
 **Model architecture**: <br>
 - feed-forward neural network (model can be extended for recurrent architectures),
 - base layers learn joint representations of inputs,
-- parameter layers ($\mu$ - layer and $\sigma$ - layer) learn specific representations important for each output parameter.
+- parameter layers ( $\mu$ - layer and $\sigma$ - layer) learn specific representations important for each output parameter.
 
 <br> <br>
 Model output $\sigma$ represents aleatoric model uncertainty (illustration example below). <br> <br>
